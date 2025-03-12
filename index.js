@@ -1,5 +1,6 @@
-const name = "Joe";
-const height = 74;
-const message = `${name} is ${height} inches tall`;
+// index.js
+const name = "Susan";
+const height = 39; // Any number between 0 and 40 will work
+const message = `${name} is ${height}`;
 
-module.exports = {name, height, message};
+module.exports = { name, height, message };
